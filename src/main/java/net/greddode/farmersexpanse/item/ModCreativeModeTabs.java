@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.CHICKEN_NUGGET);
                         output.accept(ModItems.ENERGY_DRINK);
+                        output.accept(ModItems.FLOUR);
                     })
                     .build());
     public  static void register(IEventBus eventBus)

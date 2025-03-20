@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:chicken_cuts"
+
+    },
+    {
+      "item": "farmersexpanse:flour"
+    }
+  ],
+  "result": {
+      "count": 4,
+      "id": "farmersexpanse:chicken_nugget"
+    },
+
+  "cookingtime": 200
+}
