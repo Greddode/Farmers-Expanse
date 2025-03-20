@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "farmersexpanse:flour"
+    },
+    {
+      "item": "farmersexpanse:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:wheat_dough"
+  }
+}

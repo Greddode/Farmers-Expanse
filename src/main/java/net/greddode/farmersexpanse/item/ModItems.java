@@ -1,15 +1,12 @@
 package net.greddode.farmersexpanse.item;
 
 import com.google.common.collect.Sets;
-import net.greddode.farmersexpanse.FarmersExpance;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.Tier;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import vectorwing.farmersdelight.common.FoodValues;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
 
@@ -22,6 +19,8 @@ public class ModItems {
     public static final Supplier<Item> CHICKEN_NUGGET;
     public static final Supplier<Item> ENERGY_DRINK;
     public static final Supplier<Item> FLOUR;
+    public static final Supplier<Item> STEW;
+    public static final Supplier<Item> SALT;
 
     public ModItems() {
     }
@@ -49,9 +48,11 @@ public class ModItems {
     static {
         ITEMS = DeferredRegister.create(Registries.ITEM, "farmersexpanse");
         CREATIVE_TAB_ITEMS = Sets.newLinkedHashSet();
-        CHICKEN_NUGGET = registerWithTab("chicken_nugget", () -> new Item(foodItem(ModFoodProperties.CHICKEN_NUGGET)));
-        ENERGY_DRINK = registerWithTab("energy_drink", () -> new DrinkableItem(drinkItem().food(ModFoodProperties.ENERGY_DRINK)));
+        CHICKEN_NUGGET = registerWithTab("chicken_nugget", () -> new Item(foodItem(FoodValues.CHICKEN_NUGGET)));
+        ENERGY_DRINK = registerWithTab("energy_drink", () -> new DrinkableItem(drinkItem().food(FoodValues.ENERGY_DRINK)));
         FLOUR = registerWithTab("flour", () -> new Item(basicItem()));
+        STEW = registerWithTab("stew", () -> new ConsumableItem(bowlFoodItem(FoodValues.STEW)));
+        SALT = registerWithTab("salt", () -> new Item(basicItem()));
     }
     public static void register(IEventBus eventBus)
     {
