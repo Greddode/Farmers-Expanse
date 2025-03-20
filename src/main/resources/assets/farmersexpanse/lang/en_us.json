@@ -1,4 +1,8 @@
 {
   "item.farmersexpanse.chicken_nugget" : "Chicken Nugget",
-  "item.farmersexpanse.energy_drink" : "Energy Drink"
+  "item.farmersexpanse.energy_drink" : "Energy Drink",
+
+
+
+  "creativetab.farmersexpanse.foods" : "Farmers Expanse Foods"
 }
