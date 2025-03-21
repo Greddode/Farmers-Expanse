@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersexpanse:batter"
+
+    },
+    {
+      "tag": "c:fryingoil"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "farmersexpanse:butter"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:frosted_donut"
+  },
+
+  "cookingtime": 200
+}

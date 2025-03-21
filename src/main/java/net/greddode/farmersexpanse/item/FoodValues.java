@@ -28,6 +28,8 @@ public class FoodValues {
     public static final FoodProperties COTTON_CANDY = new FoodProperties.Builder().nutrition(1).saturationModifier(1f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION), 1).build();
     public static final FoodProperties MAC_N_CHEESE = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
     public static final FoodProperties PLAIN_DONUT = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
+    public static final FoodProperties POWDERED_DONUT = new FoodProperties.Builder().nutrition(8).saturationModifier(1).build();
+    public static final FoodProperties FROSTED_DONUT = new FoodProperties.Builder().nutrition(10).saturationModifier(0.8f).build();
 
     public FoodValues() {
     }

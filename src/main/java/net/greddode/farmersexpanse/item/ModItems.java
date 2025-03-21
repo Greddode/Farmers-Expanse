@@ -81,6 +81,10 @@ public class ModItems {
     //Donuts
     public static final Supplier<Item> PLAIN_DONUT = registerWithTab("plain_donut",
             () -> new Item(foodItem(FoodValues.PLAIN_DONUT)));
+    public static final Supplier<Item> POWDERED_DONUT = registerWithTab("powdered_donut",
+            () -> new Item(foodItem(FoodValues.POWDERED_DONUT)));
+    public static final Supplier<Item> FROSTED_DONUT = registerWithTab("frosted_donut",
+            () -> new Item(foodItem(FoodValues.FROSTED_DONUT)));
 
 
     public static void register(IEventBus eventBus)
