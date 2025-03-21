@@ -49,7 +49,7 @@ public class FoodValues {
     public static final FoodProperties BEEF_NOODLE_SOUP = new FoodProperties.Builder().nutrition(14).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
     public static final FoodProperties FISH_NOODLE_SOUP = new FoodProperties.Builder().nutrition(14).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
     public static final FoodProperties CARROT_SOUP = new FoodProperties.Builder().nutrition(7).saturationModifier(0.8f).build();
-    public static final FoodProperties VEGETABLE_NOODLE_SOUP = new FoodProperties.Builder().nutrition(12).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
+    public static final FoodProperties VEGETABLE_NOODLE_SOUP = new FoodProperties.Builder().nutrition(12).saturationModifier(0.8f).effect(()-> comfort(SHORT_DURATION), 1).build();
     public static final FoodProperties SLIME_SOUP = new FoodProperties.Builder().nutrition(6).saturationModifier(0.8f).build();
 
 
