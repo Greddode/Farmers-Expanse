@@ -78,6 +78,10 @@ public class ModItems {
     public static final Supplier<Item> CARAMEL = registerWithTab("caramel",
             () -> new Item(foodItem(FoodValues.CARAMEL)));
 
+    //Donuts
+    public static final Supplier<Item> PLAIN_DONUT = registerWithTab("plain_donut",
+            () -> new Item(foodItem(FoodValues.PLAIN_DONUT)));
+
 
     public static void register(IEventBus eventBus)
     {

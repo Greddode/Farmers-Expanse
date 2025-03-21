@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersexpanse:batter"
+
+    },
+    {
+      "tag": "c:fryingoil"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:plain_donut"
+  },
+
+  "cookingtime": 200
+}
