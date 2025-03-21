@@ -17,9 +17,17 @@ public class FoodValues {
     public static final int SHORT_DURATION = 1200;
     public static final int MEDIUM_DURATION = 3600;
     public static final int LONG_DURATION = 6000;
-    public static final FoodProperties CHICKEN_NUGGET = (new FoodProperties.Builder()).nutrition(3).saturationModifier(1.2F).fast().build();
+    public static final FoodProperties CHICKEN_NUGGET = (new FoodProperties.Builder()).nutrition(3).saturationModifier(0.5F).fast().build();
     public static final FoodProperties ENERGY_DRINK = new FoodProperties.Builder().nutrition(0).saturationModifier(0).effect(()-> new MobEffectInstance(MobEffects.GLOWING, BRIEF_DURATION), 1).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION), 1).build();
     public static final FoodProperties STEW = new FoodProperties.Builder().nutrition(15).saturationModifier(1.2f).effect(()-> nourishment(LONG_DURATION), 1).build();
+    public static final FoodProperties CHEESE = new FoodProperties.Builder().nutrition(1).saturationModifier(0.2f).build();
+    public static final FoodProperties BATTER = new FoodProperties.Builder().nutrition(1).saturationModifier(0.2f).effect(() -> new MobEffectInstance(MobEffects.HUNGER, SHORT_DURATION), 0.8f).build();
+    public static final FoodProperties BUTTER = new FoodProperties.Builder().nutrition(1).saturationModifier(0.5f).build();
+    public static final FoodProperties CARAMEL = new FoodProperties.Builder().nutrition(1).saturationModifier(0.5f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION), 1).build();
+    public static final FoodProperties EGGROLLS = new FoodProperties.Builder().nutrition(7).saturationModifier(0.5f).build();
+    public static final FoodProperties COTTON_CANDY = new FoodProperties.Builder().nutrition(1).saturationModifier(1f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION), 1).build();
+    public static final FoodProperties MAC_N_CHEESE = new FoodProperties.Builder().nutrition(7).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
+
 
     public FoodValues() {
     }

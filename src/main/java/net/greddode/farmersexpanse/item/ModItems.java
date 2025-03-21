@@ -21,6 +21,16 @@ public class ModItems {
     public static final Supplier<Item> FLOUR;
     public static final Supplier<Item> STEW;
     public static final Supplier<Item> SALT;
+    public static final Supplier<Item> BATTER;
+    public static final Supplier<Item> CHEESE;
+    public static final Supplier<Item> BUTTER;
+    public static final Supplier<Item> VINEGAR;
+    public static final Supplier<Item> MUSHROOM_OIL;
+    public static final Supplier<Item> COOKING_OIL;
+    public static final Supplier<Item> CARAMEL;
+    public static final Supplier<Item> EGGROLLS;
+    public static final Supplier<Item> COTTON_CANDY;
+    public static final Supplier<Item> MAC_N_CHEESE;
 
     public ModItems() {
     }
@@ -45,6 +55,13 @@ public class ModItems {
     public static Item.Properties drinkItem() {
         return (new Item.Properties()).craftRemainder(Items.GLASS_BOTTLE).stacksTo(16);
     }
+
+    public static Item.Properties stickItem(FoodProperties food)
+    {
+        return new Item.Properties().food(food).craftRemainder(Items.STICK);
+    }
+
+
     static {
         ITEMS = DeferredRegister.create(Registries.ITEM, "farmersexpanse");
         CREATIVE_TAB_ITEMS = Sets.newLinkedHashSet();
@@ -53,6 +70,17 @@ public class ModItems {
         FLOUR = registerWithTab("flour", () -> new Item(basicItem()));
         STEW = registerWithTab("stew", () -> new ConsumableItem(bowlFoodItem(FoodValues.STEW)));
         SALT = registerWithTab("salt", () -> new Item(basicItem()));
+        BATTER = registerWithTab("batter", () -> new Item(foodItem(FoodValues.BATTER)));
+        CHEESE = registerWithTab("cheese", () -> new Item(foodItem(FoodValues.CHEESE)));
+        BUTTER = registerWithTab("butter", () -> new Item(foodItem(FoodValues.BUTTER)));
+        VINEGAR = registerWithTab("vinegar", () -> new Item(drinkItem()));
+        MUSHROOM_OIL = registerWithTab("mushroom_oil", () -> new Item(drinkItem()));
+        COOKING_OIL = registerWithTab("cooking_oil", () -> new Item(drinkItem()));
+        CARAMEL = registerWithTab("caramel", () -> new Item(foodItem(FoodValues.CARAMEL)));
+        EGGROLLS = registerWithTab("eggrolls", () -> new Item(foodItem(FoodValues.EGGROLLS)));
+        COTTON_CANDY = registerWithTab("cotton_candy", () -> new Item(stickItem(FoodValues.COTTON_CANDY)));
+        MAC_N_CHEESE = registerWithTab("mac_n_cheese", () -> new Item(foodItem(FoodValues.MAC_N_CHEESE)));
+
     }
     public static void register(IEventBus eventBus)
     {
