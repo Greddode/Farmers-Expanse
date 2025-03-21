@@ -19,6 +19,7 @@ public class ModItems {
         CREATIVE_TAB_ITEMS.add(block);
         return block;
     }
+
     public static Item.Properties basicItem() {
         return new Item.Properties();
     }
@@ -35,10 +36,10 @@ public class ModItems {
         return (new Item.Properties()).craftRemainder(Items.GLASS_BOTTLE).stacksTo(16);
     }
 
-    public static Item.Properties stickItem(FoodProperties food)
-    {
+    public static Item.Properties stickItem(FoodProperties food) {
         return new Item.Properties().food(food).craftRemainder(Items.STICK);
     }
+
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, "farmersexpanse");
     public static LinkedHashSet<Supplier<Item>> CREATIVE_TAB_ITEMS = Sets.newLinkedHashSet();
 
