@@ -33,14 +33,24 @@ public class FoodValues {
     public static final FoodProperties CHOCOLATE_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
     public static final FoodProperties APPLE_DONUT = new FoodProperties.Builder().nutrition(11).saturationModifier(0.8f).build();
     public static final FoodProperties CHORUS_DONUT = new FoodProperties.Builder().nutrition(10).saturationModifier(0.8f).build();
-    public static final FoodProperties GLOW_BERRY_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
+    public static final FoodProperties GLOW_BERRY_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).effect(()-> new MobEffectInstance(MobEffects.GLOWING, BRIEF_DURATION), 1).build();
     public static final FoodProperties MELON_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
     public static final FoodProperties SWEET_BERRY_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
-    public static final FoodProperties CARAMEL_DONUT = new FoodProperties.Builder().nutrition(10).saturationModifier(0.8f).build();
+    public static final FoodProperties CARAMEL_DONUT = new FoodProperties.Builder().nutrition(8).saturationModifier(0.5f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION), 1).build();
     public static final FoodProperties CARROT_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
     public static final FoodProperties HONEY_GLAZED_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
-    public static final FoodProperties PUMPKIN_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
+    public static final FoodProperties PUMPKIN_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).effect(()-> comfort(SHORT_DURATION), 1).build();
     public static final FoodProperties SLIME_DONUT = new FoodProperties.Builder().nutrition(10).saturationModifier(0.8f).build();
+    public static final FoodProperties CHICKEN_NOODLE_SOUP = new FoodProperties.Builder().nutrition(14).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
+    public static final FoodProperties CACTUS_SOUP = new FoodProperties.Builder().nutrition(7).saturationModifier(0.4f).build();
+    public static final FoodProperties POTATO_SOUP = new FoodProperties.Builder().nutrition(8).saturationModifier(1).effect(()-> nourishment(MEDIUM_DURATION), 1).build();
+    public static final FoodProperties RABBIT_NOODLE_SOUP = new FoodProperties.Builder().nutrition(14).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
+    public static final FoodProperties MUTTON_NOODLE_SOUP = new FoodProperties.Builder().nutrition(14).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
+    public static final FoodProperties BEEF_NOODLE_SOUP = new FoodProperties.Builder().nutrition(14).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
+    public static final FoodProperties FISH_NOODLE_SOUP = new FoodProperties.Builder().nutrition(14).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
+    public static final FoodProperties CARROT_SOUP = new FoodProperties.Builder().nutrition(7).saturationModifier(0.8f).build();
+    public static final FoodProperties VEGETABLE_NOODLE_SOUP = new FoodProperties.Builder().nutrition(12).saturationModifier(0.8f).effect(()-> comfort(MEDIUM_DURATION), 1).build();
+    public static final FoodProperties SLIME_SOUP = new FoodProperties.Builder().nutrition(6).saturationModifier(0.8f).build();
 
 
 
