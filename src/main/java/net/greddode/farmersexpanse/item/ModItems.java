@@ -57,7 +57,7 @@ public class ModItems {
 
     //Drinks
     public static final Supplier<Item> ENERGY_DRINK = registerWithTab("energy_drink",
-            () -> new DrinkableItem(drinkItem().food(FoodValues.ENERGY_DRINK)));
+            () -> new DrinkableItem(drinkItem().food(FoodValues.ENERGY_DRINK), true));
 
     //Ingredients
     public static final Supplier<Item> FLOUR = registerWithTab("flour",
@@ -121,6 +121,20 @@ public class ModItems {
             () -> new ConsumableItem(bowlFoodItem(FoodValues.CACTUS_SOUP)));
     public static final Supplier<Item> POTATO_SOUP = registerWithTab("potato_soup",
             () -> new ConsumableItem(bowlFoodItem(FoodValues.POTATO_SOUP), true));
+    public static final Supplier<Item> RABBIT_NOODLE_SOUP = registerWithTab("rabbit_noodle_soup",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.RABBIT_NOODLE_SOUP), true));
+    public static final Supplier<Item> MUTTON_NOODLE_SOUP = registerWithTab("mutton_noodle_soup",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.MUTTON_NOODLE_SOUP), true));
+    public static final Supplier<Item> BEEF_NOODLE_SOUP = registerWithTab("beef_noodle_soup",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.BEEF_NOODLE_SOUP), true));
+    public static final Supplier<Item> FISH_NOODLE_SOUP = registerWithTab("fish_noodle_soup",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.FISH_NOODLE_SOUP), true));
+    public static final Supplier<Item> CARROT_SOUP = registerWithTab("carrot_soup",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.CARROT_SOUP)));
+    public static final Supplier<Item> VEGETABLE_NOODLE_SOUP = registerWithTab("vegetable_noodle_soup",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.VEGETABLE_NOODLE_SOUP), true));
+    public static final Supplier<Item> SLIME_SOUP = registerWithTab("slime_soup",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.SLIME_SOUP)));
 
 
     public static void register(IEventBus eventBus)

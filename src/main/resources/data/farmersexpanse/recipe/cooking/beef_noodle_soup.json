@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:foods/pasta"
+
+    },
+    {
+      "tag": "c:foods/raw_beef"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    },
+    {
+      "item": "farmersdelight:fried_egg"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:beef_noodle_soup"
+  },
+  "container": {
+    "id": "minecraft:bowl"
+  },
+
+  "cookingtime": 200
+}

@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "farmersexpanse:cream"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:carrot_soup"
+  },
+  "container": {
+    "id": "minecraft:bowl"
+  },
+
+  "cookingtime": 200
+}

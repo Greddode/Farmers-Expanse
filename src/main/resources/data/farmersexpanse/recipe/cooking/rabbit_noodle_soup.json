@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:rabbit"
+
+    },
+    {
+      "tag": "c:foods/raw_chicken"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    },
+    {
+      "item": "farmersdelight:fried_egg"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:rabbit_noodle_soup"
+  },
+  "container": {
+    "id": "minecraft:bowl"
+  },
+
+  "cookingtime": 200
+}
