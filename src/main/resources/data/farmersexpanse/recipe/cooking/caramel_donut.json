@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersexpanse:batter"
+
+    },
+    {
+      "tag": "c:fryingoil"
+    },
+    {
+      "item": "farmersexpanse:caramel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:caramel_donut"
+  },
+
+  "cookingtime": 200
+}

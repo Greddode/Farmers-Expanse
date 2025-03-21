@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersexpanse:batter"
+
+    },
+    {
+      "tag": "c:fryingoil"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:honey_glazed_donut"
+  },
+
+  "cookingtime": 200
+}

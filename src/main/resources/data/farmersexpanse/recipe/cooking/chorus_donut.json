@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersexpanse:batter"
+
+    },
+    {
+      "tag": "c:fryingoil"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:chorus_donut"
+  },
+
+  "cookingtime": 200
+}

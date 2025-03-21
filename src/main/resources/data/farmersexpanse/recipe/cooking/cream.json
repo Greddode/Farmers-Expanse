@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:cream"
+  },
+  "container": {
+    "id": "minecraft:glass_bottle"
+  }
+}

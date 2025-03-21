@@ -30,6 +30,20 @@ public class FoodValues {
     public static final FoodProperties PLAIN_DONUT = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
     public static final FoodProperties POWDERED_DONUT = new FoodProperties.Builder().nutrition(8).saturationModifier(1).build();
     public static final FoodProperties FROSTED_DONUT = new FoodProperties.Builder().nutrition(10).saturationModifier(0.8f).build();
+    public static final FoodProperties CHOCOLATE_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
+    public static final FoodProperties APPLE_DONUT = new FoodProperties.Builder().nutrition(11).saturationModifier(0.8f).build();
+    public static final FoodProperties CHORUS_DONUT = new FoodProperties.Builder().nutrition(10).saturationModifier(0.8f).build();
+    public static final FoodProperties GLOW_BERRY_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
+    public static final FoodProperties MELON_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
+    public static final FoodProperties SWEET_BERRY_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
+    public static final FoodProperties CARAMEL_DONUT = new FoodProperties.Builder().nutrition(10).saturationModifier(0.8f).build();
+    public static final FoodProperties CARROT_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
+    public static final FoodProperties HONEY_GLAZED_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
+    public static final FoodProperties PUMPKIN_DONUT = new FoodProperties.Builder().nutrition(9).saturationModifier(0.8f).build();
+    public static final FoodProperties SLIME_DONUT = new FoodProperties.Builder().nutrition(10).saturationModifier(0.8f).build();
+
+
+
 
     public FoodValues() {
     }

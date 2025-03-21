@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersexpanse:batter"
+
+    },
+    {
+      "tag": "c:fryingoil"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:carrot_donut"
+  },
+
+  "cookingtime": 200
+}

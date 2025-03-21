@@ -63,12 +63,16 @@ public class ModItems {
             () -> new Item(basicItem()));
     public static final Supplier<Item> SALT = registerWithTab("salt",
             () -> new Item(basicItem()));
+    public static final Supplier<Item> COCOA_POWDER = registerWithTab("cocoa_powder",
+            () -> new Item(basicItem()));
     public static final Supplier<Item> BATTER = registerWithTab("batter",
             () -> new Item(foodItem(FoodValues.BATTER)));
     public static final Supplier<Item> CHEESE = registerWithTab("cheese",
             () -> new Item(foodItem(FoodValues.CHEESE)));
     public static final Supplier<Item> BUTTER = registerWithTab("butter",
             () -> new Item(foodItem(FoodValues.BUTTER)));
+    public static final Supplier<Item> CREAM = registerWithTab("cream",
+            () -> new Item(drinkItem()));
     public static final Supplier<Item> VINEGAR = registerWithTab("vinegar",
             () -> new Item(drinkItem()));
     public static final Supplier<Item> MUSHROOM_OIL = registerWithTab("mushroom_oil",
@@ -78,6 +82,7 @@ public class ModItems {
     public static final Supplier<Item> CARAMEL = registerWithTab("caramel",
             () -> new Item(foodItem(FoodValues.CARAMEL)));
 
+
     //Donuts
     public static final Supplier<Item> PLAIN_DONUT = registerWithTab("plain_donut",
             () -> new Item(foodItem(FoodValues.PLAIN_DONUT)));
@@ -85,6 +90,28 @@ public class ModItems {
             () -> new Item(foodItem(FoodValues.POWDERED_DONUT)));
     public static final Supplier<Item> FROSTED_DONUT = registerWithTab("frosted_donut",
             () -> new Item(foodItem(FoodValues.FROSTED_DONUT)));
+    public static final Supplier<Item> CHOCOLATE_DONUT = registerWithTab("chocolate_donut",
+            () -> new Item(foodItem(FoodValues.CHOCOLATE_DONUT)));
+    public static final Supplier<Item> APPLE_DONUT = registerWithTab("apple_donut",
+            () -> new Item(foodItem(FoodValues.APPLE_DONUT)));
+    public static final Supplier<Item> CHORUS_DONUT = registerWithTab("chorus_donut",
+            () -> new Item(foodItem(FoodValues.CHORUS_DONUT)));
+    public static final Supplier<Item> GLOW_BERRY_DONUT = registerWithTab("glow_berry_donut",
+            () -> new Item(foodItem(FoodValues.GLOW_BERRY_DONUT)));
+    public static final Supplier<Item> MELON_DONUT = registerWithTab("melon_donut",
+            () -> new Item(foodItem(FoodValues.MELON_DONUT)));
+    public static final Supplier<Item> SWEET_BERRY_DONUT = registerWithTab("sweet_berry_donut",
+            () -> new Item(foodItem(FoodValues.SWEET_BERRY_DONUT)));
+    public static final Supplier<Item> CARAMEL_DONUT = registerWithTab("caramel_donut",
+            () -> new Item(foodItem(FoodValues.CARAMEL_DONUT)));
+    public static final Supplier<Item> CARROT_DONUT = registerWithTab("carrot_donut",
+            () -> new Item(foodItem(FoodValues.CARROT_DONUT)));
+    public static final Supplier<Item> HONEY_GLAZED_DONUT = registerWithTab("honey_glazed_donut",
+            () -> new Item(foodItem(FoodValues.HONEY_GLAZED_DONUT)));
+    public static final Supplier<Item> PUMPKIN_DONUT = registerWithTab("pumpkin_donut",
+            () -> new Item(foodItem(FoodValues.PUMPKIN_DONUT)));
+    public static final Supplier<Item> SLIME_DONUT = registerWithTab("slime_donut",
+            () -> new Item(foodItem(FoodValues.SLIME_DONUT)));
 
 
     public static void register(IEventBus eventBus)
