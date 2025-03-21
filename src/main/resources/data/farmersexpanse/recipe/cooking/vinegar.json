@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/vinegar_ingredient"
+    },
+    {
+      "tag": "c:foods/vinegar_ingredient"
+    },
+    {
+      "tag": "c:foods/vinegar_ingredient"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "farmersexpanse:vinegar"
+  },
+  "container": {
+    "id": "minecraft:glass_bottle"
+  },
+
+  "cookingtime": 200
+}

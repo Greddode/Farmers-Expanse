@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_meat"
+
+    },
+    {
+      "item": "farmersdelight:wheat_dough"
+    },
+    {
+      "tag": "c:foods/cabbage"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:eggrolls"
+  },
+
+  "cookingtime": 200
+}

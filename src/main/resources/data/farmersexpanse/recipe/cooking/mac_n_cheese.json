@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:foods/pasta"
+
+    },
+    {
+      "item": "farmersexpanse:cheese"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersexpanse:mac_n_cheese"
+  },
+  "container": {
+    "id": "minecraft:bowl"
+  },
+
+  "cookingtime": 200
+}
