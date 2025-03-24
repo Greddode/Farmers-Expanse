@@ -1,15 +1,8 @@
-package net.greddode.farmersexpanse.item;
-
-import com.google.common.collect.ImmutableMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+package net.greddode.farmersexpanse.registry;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class FoodValues {

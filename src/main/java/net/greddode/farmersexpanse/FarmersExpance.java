@@ -1,7 +1,8 @@
 package net.greddode.farmersexpanse;
 
-import net.greddode.farmersexpanse.item.ModCreativeTabs;
-import net.greddode.farmersexpanse.item.ModItems;
+import net.greddode.farmersexpanse.registry.ModBlocks;
+import net.greddode.farmersexpanse.registry.ModCreativeTabs;
+import net.greddode.farmersexpanse.registry.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -41,6 +42,7 @@ public class FarmersExpance
         NeoForge.EVENT_BUS.register(this);
         ModCreativeTabs.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

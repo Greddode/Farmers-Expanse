@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "farmersexpanse:block/oats_crop_stage4_bottom"
+  }
+}

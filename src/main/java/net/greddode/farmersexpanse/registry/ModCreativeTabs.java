@@ -1,4 +1,4 @@
-package net.greddode.farmersexpanse.item;
+package net.greddode.farmersexpanse.registry;
 
 import java.util.function.Supplier;
 import net.minecraft.core.registries.Registries;
