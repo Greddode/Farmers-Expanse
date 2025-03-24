@@ -14,8 +14,8 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class OatsCropBlock extends CropBlock
 {
-    //public static final int MAX_AGE = 4;
-    //public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 4);
+    public static final int MAX_AGE = 4;
+    public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 4);
     private static final VoxelShape[] SHAPE_BY_AGE =
             new VoxelShape[]
                     {
