@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "farmersexspanse:block/wild_oats"
+    "cross": "farmersexpanse:block/wild_oats"
   }
 }

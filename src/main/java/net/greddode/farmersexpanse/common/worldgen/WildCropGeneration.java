@@ -1,4 +1,4 @@
-package net.greddode.farmersexpanse.common.world;
+package net.greddode.farmersexpanse.common.worldgen;
 
 import net.greddode.farmersexpanse.FarmersExpance;
 import net.minecraft.core.registries.Registries;
