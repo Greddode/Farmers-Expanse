@@ -1,4 +1,4 @@
-package net.greddode.farmersexpanse.item;
+package net.greddode.farmersexpanse.common.registery;
 
 import com.google.common.collect.Sets;
 import net.minecraft.core.registries.Registries;

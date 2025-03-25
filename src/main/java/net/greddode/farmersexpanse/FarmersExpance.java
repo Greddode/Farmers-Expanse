@@ -1,7 +1,7 @@
 package net.greddode.farmersexpanse;
 
-import net.greddode.farmersexpanse.item.ModCreativeTabs;
-import net.greddode.farmersexpanse.item.ModItems;
+import net.greddode.farmersexpanse.common.registery.ModCreativeTabs;
+import net.greddode.farmersexpanse.common.registery.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
