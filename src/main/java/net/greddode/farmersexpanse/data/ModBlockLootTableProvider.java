@@ -1,8 +1,8 @@
 package net.greddode.farmersexpanse.data;
 
-import net.greddode.farmersexpanse.registry.ModBlocks;
-import net.greddode.farmersexpanse.registry.ModItems;
-import net.greddode.farmersexpanse.registry.block.crop.OatsCropBlock;
+import net.greddode.farmersexpanse.common.registry.ModBlocks;
+import net.greddode.farmersexpanse.common.registry.ModItems;
+import net.greddode.farmersexpanse.common.block.crop.OatsCropBlock;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;

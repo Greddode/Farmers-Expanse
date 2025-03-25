@@ -1,7 +1,8 @@
-package net.greddode.farmersexpanse.registry;
+package net.greddode.farmersexpanse.common.registry;
 
 import net.greddode.farmersexpanse.FarmersExpance;
-import net.greddode.farmersexpanse.registry.block.crop.OatsCropBlock;
+import net.greddode.farmersexpanse.common.block.crop.OatsCropBlock;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -10,6 +11,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import vectorwing.farmersdelight.common.block.WildCropBlock;
 
 import java.util.function.Supplier;
 
@@ -18,8 +20,13 @@ public class ModBlocks
     public final static DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(FarmersExpance.MOD_ID);
 
+    //Crops
     public static final DeferredBlock<Block> OATS_CROP = BLOCKS.register("oats_crop",
             () -> new OatsCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    //Wild Crops
+    public static final Supplier<Block> WILD_OATS = BLOCKS.register("wild_oats",
+            () -> new WildCropBlock(MobEffects.CONFUSION, 8, Block.Properties.ofFullCopy(Blocks.TALL_GRASS)));
 
 
 

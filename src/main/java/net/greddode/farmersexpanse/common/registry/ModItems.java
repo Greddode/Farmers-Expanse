@@ -1,13 +1,13 @@
-package net.greddode.farmersexpanse.registry;
+package net.greddode.farmersexpanse.common.registry;
 
 import com.google.common.collect.Sets;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
@@ -62,7 +62,7 @@ public class ModItems {
             () -> new DrinkableItem(drinkItem().food(FoodValues.ENERGY_DRINK), true));
 
     //Ingredients
-    public static final Supplier<Item> FLOUR = registerWithTab("flour",
+    public static final Supplier<Item> WHEAT_FLOUR = registerWithTab("wheat_flour",
             () -> new Item(basicItem()));
     public static final Supplier<Item> SALT = registerWithTab("salt",
             () -> new Item(basicItem()));
@@ -143,6 +143,10 @@ public class ModItems {
             () -> new Item(basicItem()));
     public static final Supplier<Item> OAT_SEEDS = ITEMS.register("oat_seeds",
             () -> new ItemNameBlockItem(ModBlocks.OATS_CROP.get(), new Item.Properties()));
+
+    //Wild Crops
+    public static final Supplier<Item> WILD_OATS = registerWithTab("wild_oats",
+            () -> new BlockItem(ModBlocks.WILD_OATS.get(), basicItem()));
 
 
     public static void register(IEventBus eventBus)

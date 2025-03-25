@@ -1,7 +1,7 @@
 package net.greddode.farmersexpanse.data;
 
 import net.greddode.farmersexpanse.FarmersExpance;
-import net.greddode.farmersexpanse.registry.ModItems;
+import net.greddode.farmersexpanse.common.registry.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;

@@ -1,8 +1,8 @@
 package net.greddode.farmersexpanse.data;
 
 import net.greddode.farmersexpanse.FarmersExpance;
-import net.greddode.farmersexpanse.registry.ModBlocks;
-import net.greddode.farmersexpanse.registry.block.crop.OatsCropBlock;
+import net.greddode.farmersexpanse.common.registry.ModBlocks;
+import net.greddode.farmersexpanse.common.block.crop.OatsCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.CropBlock;

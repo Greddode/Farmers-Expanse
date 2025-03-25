@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:block/crop",
+  "render_type": "minecraft:cutout",
   "textures": {
-    "layer0": "farmersexpanse:block/oats_crop_stage0"
+    "crop": "farmersexpanse:block/oats_crop_stage0"
   }
 }

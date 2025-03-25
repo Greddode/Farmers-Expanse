@@ -1,4 +1,4 @@
-package net.greddode.farmersexpanse.registry;
+package net.greddode.farmersexpanse.common.registry;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

@@ -1,6 +1,6 @@
-package net.greddode.farmersexpanse.registry.block.crop;
+package net.greddode.farmersexpanse.common.block.crop;
 
-import net.greddode.farmersexpanse.registry.ModItems;
+import net.greddode.farmersexpanse.common.registry.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.ItemLike;
