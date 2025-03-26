@@ -1,9 +1,11 @@
-package net.greddode.farmersexpanse.common.registery;
+package net.greddode.farmersexpanse.common.registry;
 
 import com.google.common.collect.Sets;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -135,6 +137,16 @@ public class ModItems {
             () -> new ConsumableItem(bowlFoodItem(FoodValues.VEGETABLE_NOODLE_SOUP), true));
     public static final Supplier<Item> SLIME_SOUP = registerWithTab("slime_soup",
             () -> new ConsumableItem(bowlFoodItem(FoodValues.SLIME_SOUP)));
+
+    //Crops
+    public static final Supplier<Item> OATS = registerWithTab("oats",
+            () -> new Item(basicItem()));
+    public static final Supplier<Item> OAT_SEEDS = ITEMS.register("oat_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.OATS_CROP.get(), new Item.Properties()));
+
+    //Wild Crops
+    public static final Supplier<Item> WILD_OATS = registerWithTab("wild_oats",
+            () -> new BlockItem(ModBlocks.WILD_OATS.get(), basicItem()));
 
 
     public static void register(IEventBus eventBus)

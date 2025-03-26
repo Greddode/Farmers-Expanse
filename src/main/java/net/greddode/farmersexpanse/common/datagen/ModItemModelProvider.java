@@ -1,7 +1,7 @@
 package net.greddode.farmersexpanse.common.datagen;
 
 import net.greddode.farmersexpanse.FarmersExpance;
-import net.greddode.farmersexpanse.common.registery.ModItems;
+import net.greddode.farmersexpanse.common.registry.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -67,5 +67,11 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItems.VEGETABLE_NOODLE_SOUP.get());
         basicItem(ModItems.SLIME_SOUP.get());
 
+        //Crops
+        basicItem(ModItems.OAT_SEEDS.get());
+        basicItem(ModItems.OATS.get());
+
+        //Wild Crops
+        basicItem(ModItems.WILD_OATS.get());
     }
 }
