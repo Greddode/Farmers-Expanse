@@ -18,7 +18,8 @@ public class ModItemModelProvider extends ItemModelProvider
     {
         //Ingredients
         basicItem(ModItems.VINEGAR.get());
-        basicItem(ModItems.FLOUR.get());
+        basicItem(ModItems.WHEAT_FLOUR.get());
+        basicItem(ModItems.OAT_FLOUR.get());
         basicItem(ModItems.SALT.get());
         basicItem(ModItems.BATTER.get());
         basicItem(ModItems.BUTTER.get());
@@ -35,6 +36,10 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItems.MAC_N_CHEESE.get());
         basicItem(ModItems.COTTON_CANDY.get());
         basicItem(ModItems.EGGROLLS.get());
+        basicItem(ModItems.OATMEAL_COOKIE.get());
+        basicItem(ModItems.OAT_SCONE.get());
+        basicItem(ModItems.OAT_PANCAKE.get());
+
 
         //Drinks
         basicItem(ModItems.ENERGY_DRINK.get());
@@ -66,6 +71,11 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItems.CARROT_SOUP.get());
         basicItem(ModItems.VEGETABLE_NOODLE_SOUP.get());
         basicItem(ModItems.SLIME_SOUP.get());
+
+        //Oatmeals
+        basicItem(ModItems.OATMEAL.get());
+        basicItem(ModItems.SWEET_BERRY_N_CREAM_OATMEAL.get());
+
 
         //Crops
         basicItem(ModItems.OAT_SEEDS.get());

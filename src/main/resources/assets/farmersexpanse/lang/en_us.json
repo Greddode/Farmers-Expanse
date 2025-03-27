@@ -1,8 +1,14 @@
 {
   "item.farmersexpanse.chicken_nugget" : "Chicken Nugget",
-  "item.farmersexpanse.energy_drink" : "Energy Drink",
-  "item.farmersexpanse.flour" : "Flour",
   "item.farmersexpanse.stew" : "Stew",
+  "item.farmersexpanse.eggrolls" : "Egg rolls",
+  "item.farmersexpanse.cotton_candy" : "Cotton Candy",
+  "item.farmersexpanse.mac_n_cheese" : "Mac n' Cheese",
+
+  "item.farmersexpanse.energy_drink" : "Energy Drink",
+
+  "item.farmersexpanse.wheat_flour" : "Wheat Flour",
+  "item.farmersexpanse.oat_flour" : "Oat Flour",
   "item.farmersexpanse.salt" : "Salt",
   "item.farmersexpanse.cocoa_powder" : "Cocoa Powder",
   "item.farmersexpanse.batter" : "Batter",
@@ -13,9 +19,7 @@
   "item.farmersexpanse.mushroom_oil" : "Mushroom Oil",
   "item.farmersexpanse.cooking_oil" : "Cooking Oil",
   "item.farmersexpanse.caramel" : "Caramel",
-  "item.farmersexpanse.eggrolls" : "Egg rolls",
-  "item.farmersexpanse.cotton_candy" : "Cotton Candy",
-  "item.farmersexpanse.mac_n_cheese" : "Mac n' Cheese",
+
   "item.farmersexpanse.plain_donut" : "Plain Donut",
   "item.farmersexpanse.powdered_donut" : "Powdered Donut",
   "item.farmersexpanse.frosted_donut" : "Frosted Donut",
@@ -30,6 +34,7 @@
   "item.farmersexpanse.honey_glazed_donut" : "Honey Glazed Donut",
   "item.farmersexpanse.pumpkin_donut" : "Pumpkin Donut",
   "item.farmersexpanse.slime_donut" : "Slime Donut",
+
   "item.farmersexpanse.chicken_noodle_soup" : "Chicken Noodle Soup",
   "item.farmersexpanse.cactus_soup" : "Cactus Soup",
   "item.farmersexpanse.potato_soup" : "Potato Soup",
@@ -41,12 +46,13 @@
   "item.farmersexpanse.vegetable_noodle_soup" : "Vegetable Noodle Soup",
   "item.farmersexpanse.slime_soup" : "Slime Soup",
 
+  "item.farmersexpanse.oatmeal" : "Oatmeal",
+  "item.farmersexpanse.sweet_berry_n_cream_oatmeal" : "Sweet Berry N Cream Oatmeal",
+
   "item.farmersexpanse.oat_seeds": "Oat Seeds",
   "block.farmersexpanse.oats_crop": "Oats Crop",
   "item.farmersexpanse.oats": "Oats",
   "block.farmersexpanse.wild_oats" : "Wild Oats",
-
-
 
   "creativetab.farmersexpanse.foods" : "Farmers Expanse Foods"
 }

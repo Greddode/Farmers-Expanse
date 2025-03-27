@@ -44,6 +44,12 @@ public class FoodValues {
     public static final FoodProperties CARROT_SOUP = new FoodProperties.Builder().nutrition(7).saturationModifier(0.8f).build();
     public static final FoodProperties VEGETABLE_NOODLE_SOUP = new FoodProperties.Builder().nutrition(12).saturationModifier(0.8f).effect(()-> comfort(SHORT_DURATION), 1).build();
     public static final FoodProperties SLIME_SOUP = new FoodProperties.Builder().nutrition(6).saturationModifier(0.8f).build();
+    public static final FoodProperties OATMEAL = new FoodProperties.Builder().nutrition(6).saturationModifier(0.8f).effect(()-> comfort(SHORT_DURATION), 1).build();
+    public static final FoodProperties SWEET_BERRY_N_CREAM_OATMEAL = new FoodProperties.Builder().nutrition(10).saturationModifier(0.8f).effect(()-> comfort(SHORT_DURATION), 1).build();
+    public static final FoodProperties OAT_SCONE = (new FoodProperties.Builder()).nutrition(10).saturationModifier(1F).build();
+    public static final FoodProperties OAT_PANCAKE = (new FoodProperties.Builder()).nutrition(8).saturationModifier(1F).effect(()-> comfort(SHORT_DURATION), 1).build();
+    public static final FoodProperties COOKIES = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.1F).fast().build();
+
 
 
 

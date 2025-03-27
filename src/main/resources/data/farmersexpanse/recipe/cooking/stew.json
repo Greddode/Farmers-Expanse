@@ -13,7 +13,7 @@
       "tag": "c:foods/vegetable"
     },
     {
-      "item": "farmersexpanse:flour"
+      "tag": "c:ingredients/flour"
     }
   ],
   "result": {

@@ -56,13 +56,23 @@ public class ModItems {
             () -> new ConsumableItem(stickItem(FoodValues.COTTON_CANDY), true));
     public static final Supplier<Item> MAC_N_CHEESE = registerWithTab("mac_n_cheese",
             () -> new ConsumableItem(foodItem(FoodValues.MAC_N_CHEESE), true));
+    public static final Supplier<Item> OATMEAL_COOKIE = registerWithTab("oatmeal_cookie",
+            () -> new ConsumableItem(foodItem(FoodValues.COOKIES)));
+    public static final Supplier<Item> OAT_SCONE = registerWithTab("oat_scone",
+            () -> new ConsumableItem(foodItem(FoodValues.OAT_SCONE)));
+    public static final Supplier<Item> OAT_PANCAKE = registerWithTab("oat_pancake",
+            () -> new ConsumableItem(foodItem(FoodValues.OAT_PANCAKE)));
+
+
 
     //Drinks
     public static final Supplier<Item> ENERGY_DRINK = registerWithTab("energy_drink",
             () -> new DrinkableItem(drinkItem().food(FoodValues.ENERGY_DRINK), true));
 
     //Ingredients
-    public static final Supplier<Item> FLOUR = registerWithTab("flour",
+    public static final Supplier<Item> WHEAT_FLOUR = registerWithTab("wheat_flour",
+            () -> new Item(basicItem()));
+    public static final Supplier<Item> OAT_FLOUR = registerWithTab("oat_flour",
             () -> new Item(basicItem()));
     public static final Supplier<Item> SALT = registerWithTab("salt",
             () -> new Item(basicItem()));
@@ -137,6 +147,12 @@ public class ModItems {
             () -> new ConsumableItem(bowlFoodItem(FoodValues.VEGETABLE_NOODLE_SOUP), true));
     public static final Supplier<Item> SLIME_SOUP = registerWithTab("slime_soup",
             () -> new ConsumableItem(bowlFoodItem(FoodValues.SLIME_SOUP)));
+
+    //Oatmeals
+    public static final Supplier<Item> OATMEAL = registerWithTab("oatmeal",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.OATMEAL)));
+    public static final Supplier<Item> SWEET_BERRY_N_CREAM_OATMEAL = registerWithTab("sweet_berry_n_cream_oatmeal",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.SWEET_BERRY_N_CREAM_OATMEAL)));
 
     //Crops
     public static final Supplier<Item> OATS = registerWithTab("oats",

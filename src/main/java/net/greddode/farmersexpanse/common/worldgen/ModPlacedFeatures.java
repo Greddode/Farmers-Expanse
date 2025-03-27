@@ -4,19 +4,23 @@ import net.greddode.farmersexpanse.FarmersExpance;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-import net.minecraft.world.level.levelgen.placement.PlacementModifier;
+import net.minecraft.world.level.levelgen.placement.*;
 
 import java.util.List;
 
 public class ModPlacedFeatures
 {
+    public static final ResourceKey<PlacedFeature> WILD_OATS_PLACED_KEY = registerKey("wild_oats_placed");
+
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
+        register(context, WILD_OATS_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.WILD_OATS_KEY),
+                List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BiomeFilter.biome()));
 
     }
 
