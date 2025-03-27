@@ -30,6 +30,14 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItems.CARAMEL.get());
         basicItem(ModItems.COCOA_POWDER.get());
 
+        //Yogurt
+        basicItem(ModItems.PLAIN_YOGURT.get());
+        basicItem(ModItems.GLOW_BERRY_YOGURT.get());
+        basicItem(ModItems.SWEET_BERRY_YOGURT.get());
+        basicItem(ModItems.MELON_YOGURT.get());
+        basicItem(ModItems.CHORUS_YOGURT.get());
+        basicItem(ModItems.APPLE_YOGURT.get());
+
         //Foods
         basicItem(ModItems.CHICKEN_NUGGET.get());
         basicItem(ModItems.STEW.get());

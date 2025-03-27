@@ -95,6 +95,20 @@ public class ModItems {
     public static final Supplier<Item> CARAMEL = registerWithTab("caramel",
             () -> new ConsumableItem(foodItem(FoodValues.CARAMEL), true));
 
+    //Yogurt
+    public static final Supplier<Item> PLAIN_YOGURT = registerWithTab("plain_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.PLAIN_YOGURT)));
+    public static final Supplier<Item> GLOW_BERRY_YOGURT = registerWithTab("glow_berry_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+    public static final Supplier<Item> SWEET_BERRY_YOGURT = registerWithTab("sweet_berry_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+    public static final Supplier<Item> MELON_YOGURT = registerWithTab("melon_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+    public static final Supplier<Item> CHORUS_YOGURT = registerWithTab("chorus_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+    public static final Supplier<Item> APPLE_YOGURT = registerWithTab("apple_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+
 
     //Donuts
     public static final Supplier<Item> PLAIN_DONUT = registerWithTab("plain_donut",

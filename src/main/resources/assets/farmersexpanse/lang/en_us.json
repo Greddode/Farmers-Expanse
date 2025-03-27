@@ -10,6 +10,14 @@
 
   "item.farmersexpanse.energy_drink" : "Energy Drink",
 
+  "item.farmersexpanse.plain_yogurt" : "Plain Yogurt",
+  "item.farmersexpanse.glow_berry_yogurt" : "Glow Berry Yogurt",
+  "item.farmersexpanse.sweet_berry_yogurt" : "Sweet Berry Yogurt",
+  "item.farmersexpanse.melon_yogurt" : "Melon Yogurt",
+  "item.farmersexpanse.chorus_yogurt" : "Chorus Yogurt",
+  "item.farmersexpanse.apple_yogurt" : "Apple Yogurt",
+
+
   "item.farmersexpanse.wheat_flour" : "Wheat Flour",
   "item.farmersexpanse.oat_flour" : "Oat Flour",
   "item.farmersexpanse.salt" : "Salt",
