@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "",
+  "key": {
+    "A":
+    {
+      "item": "farmersexpanse:oats"
+    },
+    "B":
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "pattern": [
+    "",
+    "ABA",
+    ""
+  ],
+  "result": {
+    "count": 8,
+    "id": "farmersexpanse:oatmeal_cookie"
+  }
+}

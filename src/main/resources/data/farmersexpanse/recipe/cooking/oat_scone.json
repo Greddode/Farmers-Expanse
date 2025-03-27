@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersexpanse:oat"
+    },
+    {
+      "item": "farmersexpanse:batter"
+    },
+    {
+      "item": "farmersexpanse:butter"
+    },
+    {
+      "tag": "c:ingredients/dough"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "farmersexpanse:oat_scone"
+  },
+  "container": {
+    "id": "minecraft:bowl"
+  },
+
+  "cookingtime": 200
+}

@@ -61,7 +61,7 @@ public class ModItems {
     public static final Supplier<Item> OAT_SCONE = registerWithTab("oat_scone",
             () -> new ConsumableItem(foodItem(FoodValues.OAT_SCONE)));
     public static final Supplier<Item> OAT_PANCAKE = registerWithTab("oat_pancake",
-            () -> new ConsumableItem(foodItem(FoodValues.OAT_PANCAKE)));
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.OAT_PANCAKE)));
 
 
 

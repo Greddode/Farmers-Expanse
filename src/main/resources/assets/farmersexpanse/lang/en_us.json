@@ -4,6 +4,9 @@
   "item.farmersexpanse.eggrolls" : "Egg rolls",
   "item.farmersexpanse.cotton_candy" : "Cotton Candy",
   "item.farmersexpanse.mac_n_cheese" : "Mac n' Cheese",
+  "item.farmersexpanse.oatmeal_cookie" : "Oatmeal Cookie",
+  "item.farmersexpanse.oat_pancake" : "Oat Pancake",
+  "item.farmersexpanse.oat_scone" : "Oat Scone",
 
   "item.farmersexpanse.energy_drink" : "Energy Drink",
 
@@ -47,7 +50,7 @@
   "item.farmersexpanse.slime_soup" : "Slime Soup",
 
   "item.farmersexpanse.oatmeal" : "Oatmeal",
-  "item.farmersexpanse.sweet_berry_n_cream_oatmeal" : "Sweet Berry N Cream Oatmeal",
+  "item.farmersexpanse.sweet_berry_n_cream_oatmeal" : "Sweet Berry n Cream Oatmeal",
 
   "item.farmersexpanse.oat_seeds": "Oat Seeds",
   "block.farmersexpanse.oats_crop": "Oats Crop",

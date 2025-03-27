@@ -2,14 +2,14 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "minecraft:wheat"
+      "item": "farmersexpanse:oats"
     }
   ],
   "result": [
     {
       "item": {
         "count": 2,
-        "id": "farmersexpanse:wheat_flour"
+        "id": "farmersexpanse:oat_flour"
       }
     }
   ],
