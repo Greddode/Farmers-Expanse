@@ -49,8 +49,9 @@ public class FoodValues {
     public static final FoodProperties OAT_SCONE = (new FoodProperties.Builder()).nutrition(10).saturationModifier(1F).build();
     public static final FoodProperties OAT_PANCAKE = (new FoodProperties.Builder()).nutrition(8).saturationModifier(1F).effect(()-> comfort(SHORT_DURATION), 1).build();
     public static final FoodProperties COOKIES = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.1F).fast().build();
-    public static final FoodProperties PLAIN_YOGURT = (new FoodProperties.Builder()).nutrition(4).saturationModifier(1F).build();
-    public static final FoodProperties FRUIT_YOGURT = (new FoodProperties.Builder()).nutrition(7).saturationModifier(1F).build();
+    public static final FoodProperties PLAIN_YOGURT = (new FoodProperties.Builder()).nutrition(4).saturationModifier(0.5F).build();
+    public static final FoodProperties FRUIT_YOGURT = (new FoodProperties.Builder()).nutrition(7).saturationModifier(0.5F).build();
+    public static final FoodProperties OATS_N_YOGURT = (new FoodProperties.Builder()).nutrition(10).saturationModifier(1F).build();
 
 
 

@@ -29,6 +29,9 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItems.CREAM.get());
         basicItem(ModItems.CARAMEL.get());
         basicItem(ModItems.COCOA_POWDER.get());
+        basicItem(ModItems.MOLASSES.get());
+        basicItem(ModItems.KETCHUP.get());
+        basicItem(ModItems.MAYONNAISE.get());
 
         //Yogurt
         basicItem(ModItems.PLAIN_YOGURT.get());
@@ -37,6 +40,7 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItems.MELON_YOGURT.get());
         basicItem(ModItems.CHORUS_YOGURT.get());
         basicItem(ModItems.APPLE_YOGURT.get());
+        basicItem(ModItems.OATS_N_YOGURT.get());
 
         //Foods
         basicItem(ModItems.CHICKEN_NUGGET.get());
