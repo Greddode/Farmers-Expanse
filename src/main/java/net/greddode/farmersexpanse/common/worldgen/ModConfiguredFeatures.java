@@ -1,7 +1,7 @@
 package net.greddode.farmersexpanse.common.worldgen;
 
 import net.greddode.farmersexpanse.FarmersExpance;
-import net.greddode.farmersexpanse.common.registry.ModBlocks;
+import net.greddode.farmersexpanse.common.registry.ModBlocksFE;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.data.worldgen.features.FeatureUtils;
@@ -13,8 +13,6 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
-import net.neoforged.neoforge.common.world.BiomeModifier;
-import net.neoforged.neoforge.registries.NeoForgeRegistries;
 
 import java.util.List;
 
@@ -27,7 +25,7 @@ public class ModConfiguredFeatures
 
         register(context, WILD_OATS_KEY, Feature.RANDOM_PATCH,
                 FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-                        new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.WILD_OATS.get()
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocksFE.WILD_OATS.get()
                                 .defaultBlockState())
                         ), List.of(Blocks.GRASS_BLOCK)));
 

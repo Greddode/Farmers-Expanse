@@ -52,6 +52,14 @@ public class FoodValues {
     public static final FoodProperties PLAIN_YOGURT = (new FoodProperties.Builder()).nutrition(4).saturationModifier(0.5F).build();
     public static final FoodProperties FRUIT_YOGURT = (new FoodProperties.Builder()).nutrition(7).saturationModifier(0.5F).build();
     public static final FoodProperties OATS_N_YOGURT = (new FoodProperties.Builder()).nutrition(10).saturationModifier(1F).build();
+    public static final FoodProperties BASIC_HAMBURGER = (new FoodProperties.Builder()).nutrition(4).saturationModifier(1.2F).build();
+    public static final FoodProperties CHEESEBURGER = (new FoodProperties.Builder()).nutrition(5).saturationModifier(1F).build();
+    public static final FoodProperties BACON_CHEESEBURGER = (new FoodProperties.Builder()).nutrition(6).saturationModifier(1F).build();
+    public static final FoodProperties DELUXE_HAMBURGER = (new FoodProperties.Builder()).nutrition(12).saturationModifier(1F).build();
+    public static final FoodProperties MEAT_SANDWICH = (new FoodProperties.Builder()).nutrition(10).saturationModifier(1.2F).build();
+    public static final FoodProperties MINCED_PORK = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodProperties HOTDOG = (new FoodProperties.Builder()).nutrition(5).saturationModifier(0.8F).build();
+    public static final FoodProperties HOTDOG_IN_A_BUN = (new FoodProperties.Builder()).nutrition(10).saturationModifier(0.8F).build();
 
 
 

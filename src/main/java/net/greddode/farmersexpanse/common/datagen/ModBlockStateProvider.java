@@ -1,7 +1,7 @@
 package net.greddode.farmersexpanse.common.datagen;
 
 import net.greddode.farmersexpanse.FarmersExpance;
-import net.greddode.farmersexpanse.common.registry.ModBlocks;
+import net.greddode.farmersexpanse.common.registry.ModBlocksFE;
 import net.greddode.farmersexpanse.common.registry.block.custom.crop.OatsCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -12,8 +12,6 @@ import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
-
-import vectorwing.farmersdelight.data.BlockStates;
 
 import java.util.function.Function;
 
@@ -29,8 +27,8 @@ public class ModBlockStateProvider extends BlockStateProvider
     {
 
 
-        makeCrop(((CropBlock) ModBlocks.OATS_CROP.get()), "oats_crop_stage", "oats_crop_stage");
-        blockItem(ModBlocks.WILD_OATS);
+        makeCrop(((CropBlock) ModBlocksFE.OATS_CROP.get()), "oats_crop_stage", "oats_crop_stage");
+        blockItem(ModBlocksFE.WILD_OATS);
 
 
 

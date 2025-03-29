@@ -1,6 +1,6 @@
 package net.greddode.farmersexpanse.common.registry.block.custom.crop;
 
-import net.greddode.farmersexpanse.common.registry.ModItems;
+import net.greddode.farmersexpanse.common.registry.ModItemsFE;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.ItemLike;
@@ -40,7 +40,7 @@ public class OatsCropBlock extends CropBlock
         @Override
         protected ItemLike getBaseSeedId()
         {
-            return ModItems.OAT_SEEDS.get();
+            return ModItemsFE.OAT_SEEDS.get();
         }
 
         @Override

@@ -10,6 +10,20 @@
 
   "item.farmersexpanse.energy_drink" : "Energy Drink",
 
+  "item.farmersexpanse.plain_hamburger" : "Plain Hamburger",
+  "item.farmersexpanse.cheeseburger" : "Cheeseburger",
+  "item.farmersexpanse.bacon_cheeseburger" : "Bacon Cheeseburger",
+  "item.farmersexpanse.deluxe_hamburger" : "Deluxe Hamburger",
+
+  "item.farmersexpanse.pork_sandwich" : "Pork Sandwich",
+  "item.farmersexpanse.mutton_sandwich" : "Mutton Sandwich",
+  "item.farmersexpanse.cod_sandwich" : "Cod Sandwich",
+  "item.farmersexpanse.salmon_sandwich" : "Salmon Sandwich",
+  "item.farmersexpanse.vegetable_sandwich" : "Vegetable Sandwich",
+
+  "item.farmersexpanse.hotdog" : "Hotdog",
+  "item.farmersexpanse.hotdog_in_a_bun" : "Hotdog in a Bun",
+
   "item.farmersexpanse.plain_yogurt" : "Plain Yogurt",
   "item.farmersexpanse.glow_berry_yogurt" : "Glow Berry Yogurt",
   "item.farmersexpanse.sweet_berry_yogurt" : "Sweet Berry Yogurt",
@@ -34,6 +48,7 @@
   "item.farmersexpanse.molasses" : "Molasses",
   "item.farmersexpanse.ketchup" : "Ketchup",
   "item.farmersexpanse.mayonnaise" : "Mayonnaise",
+  "item.farmersexpanse.minced_pork" : "Minced Pork",
 
   "item.farmersexpanse.plain_donut" : "Plain Donut",
   "item.farmersexpanse.powdered_donut" : "Powdered Donut",

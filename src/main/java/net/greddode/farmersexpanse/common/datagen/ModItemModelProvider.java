@@ -1,7 +1,7 @@
 package net.greddode.farmersexpanse.common.datagen;
 
 import net.greddode.farmersexpanse.FarmersExpance;
-import net.greddode.farmersexpanse.common.registry.ModItems;
+import net.greddode.farmersexpanse.common.registry.ModItemsFE;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -18,81 +18,99 @@ public class ModItemModelProvider extends ItemModelProvider
     protected void registerModels()
     {
         //Ingredients
-        basicItem(ModItems.VINEGAR.get());
-        basicItem(ModItems.WHEAT_FLOUR.get());
-        basicItem(ModItems.OAT_FLOUR.get());
-        basicItem(ModItems.SALT.get());
-        basicItem(ModItems.BATTER.get());
-        basicItem(ModItems.BUTTER.get());
-        basicItem(ModItems.CHEESE.get());
-        basicItem(ModItems.COOKING_OIL.get());
-        basicItem(ModItems.MUSHROOM_OIL.get());
-        basicItem(ModItems.CREAM.get());
-        basicItem(ModItems.CARAMEL.get());
-        basicItem(ModItems.COCOA_POWDER.get());
-        basicItem(ModItems.MOLASSES.get());
-        basicItem(ModItems.KETCHUP.get());
-        basicItem(ModItems.MAYONNAISE.get());
+        basicItem(ModItemsFE.VINEGAR.get());
+        basicItem(ModItemsFE.WHEAT_FLOUR.get());
+        basicItem(ModItemsFE.OAT_FLOUR.get());
+        basicItem(ModItemsFE.SALT.get());
+        basicItem(ModItemsFE.BATTER.get());
+        basicItem(ModItemsFE.BUTTER.get());
+        basicItem(ModItemsFE.CHEESE.get());
+        basicItem(ModItemsFE.COOKING_OIL.get());
+        basicItem(ModItemsFE.MUSHROOM_OIL.get());
+        basicItem(ModItemsFE.CREAM.get());
+        basicItem(ModItemsFE.CARAMEL.get());
+        basicItem(ModItemsFE.COCOA_POWDER.get());
+        basicItem(ModItemsFE.MOLASSES.get());
+        basicItem(ModItemsFE.KETCHUP.get());
+        basicItem(ModItemsFE.MAYONNAISE.get());
+        basicItem(ModItemsFE.MINCED_PORK.get());
+
+        //Hamburger
+        basicItem(ModItemsFE.PLAIN_HAMBURGER.get());
+        basicItem(ModItemsFE.CHEESEBURGER.get());
+        basicItem(ModItemsFE.BACON_CHEESEBURGER.get());
+        basicItem(ModItemsFE.DELUXE_HAMBURGER.get());
+
+        //Sandwiches
+        basicItem(ModItemsFE.PORK_SANDWICH.get());
+        basicItem(ModItemsFE.MUTTON_SANDWICH.get());
+        basicItem(ModItemsFE.COD_SANDWICH.get());
+        basicItem(ModItemsFE.SALMON_SANDWICH.get());
+        basicItem(ModItemsFE.VEGETABLE_SANDWICH.get());
+
+        //Hotdogs
+        basicItem(ModItemsFE.HOTDOG.get());
+        basicItem(ModItemsFE.HOTDOG_IN_A_BUN.get());
 
         //Yogurt
-        basicItem(ModItems.PLAIN_YOGURT.get());
-        basicItem(ModItems.GLOW_BERRY_YOGURT.get());
-        basicItem(ModItems.SWEET_BERRY_YOGURT.get());
-        basicItem(ModItems.MELON_YOGURT.get());
-        basicItem(ModItems.CHORUS_YOGURT.get());
-        basicItem(ModItems.APPLE_YOGURT.get());
-        basicItem(ModItems.OATS_N_YOGURT.get());
+        basicItem(ModItemsFE.PLAIN_YOGURT.get());
+        basicItem(ModItemsFE.GLOW_BERRY_YOGURT.get());
+        basicItem(ModItemsFE.SWEET_BERRY_YOGURT.get());
+        basicItem(ModItemsFE.MELON_YOGURT.get());
+        basicItem(ModItemsFE.CHORUS_YOGURT.get());
+        basicItem(ModItemsFE.APPLE_YOGURT.get());
+        basicItem(ModItemsFE.OATS_N_YOGURT.get());
 
         //Foods
-        basicItem(ModItems.CHICKEN_NUGGET.get());
-        basicItem(ModItems.STEW.get());
-        basicItem(ModItems.MAC_N_CHEESE.get());
-        basicItem(ModItems.COTTON_CANDY.get());
-        basicItem(ModItems.EGGROLLS.get());
-        basicItem(ModItems.OATMEAL_COOKIE.get());
-        basicItem(ModItems.OAT_SCONE.get());
-        basicItem(ModItems.OAT_PANCAKE.get());
+        basicItem(ModItemsFE.CHICKEN_NUGGET.get());
+        basicItem(ModItemsFE.STEW.get());
+        basicItem(ModItemsFE.MAC_N_CHEESE.get());
+        basicItem(ModItemsFE.COTTON_CANDY.get());
+        basicItem(ModItemsFE.EGGROLLS.get());
+        basicItem(ModItemsFE.OATMEAL_COOKIE.get());
+        basicItem(ModItemsFE.OAT_SCONE.get());
+        basicItem(ModItemsFE.OAT_PANCAKE.get());
 
         //Drinks
-        basicItem(ModItems.ENERGY_DRINK.get());
+        basicItem(ModItemsFE.ENERGY_DRINK.get());
 
         //Donuts
-        basicItem(ModItems.APPLE_DONUT.get());
-        basicItem(ModItems.PLAIN_DONUT.get());
-        basicItem(ModItems.POWDERED_DONUT.get());
-        basicItem(ModItems.FROSTED_DONUT.get());
-        basicItem(ModItems.CHOCOLATE_DONUT.get());
-        basicItem(ModItems.CHORUS_DONUT.get());
-        basicItem(ModItems.GLOW_BERRY_DONUT.get());
-        basicItem(ModItems.MELON_DONUT.get());
-        basicItem(ModItems.SWEET_BERRY_DONUT.get());
-        basicItem(ModItems.CARAMEL_DONUT.get());
-        basicItem(ModItems.CARROT_DONUT.get());
-        basicItem(ModItems.HONEY_GLAZED_DONUT.get());
-        basicItem(ModItems.PUMPKIN_DONUT.get());
-        basicItem(ModItems.SLIME_DONUT.get());
+        basicItem(ModItemsFE.APPLE_DONUT.get());
+        basicItem(ModItemsFE.PLAIN_DONUT.get());
+        basicItem(ModItemsFE.POWDERED_DONUT.get());
+        basicItem(ModItemsFE.FROSTED_DONUT.get());
+        basicItem(ModItemsFE.CHOCOLATE_DONUT.get());
+        basicItem(ModItemsFE.CHORUS_DONUT.get());
+        basicItem(ModItemsFE.GLOW_BERRY_DONUT.get());
+        basicItem(ModItemsFE.MELON_DONUT.get());
+        basicItem(ModItemsFE.SWEET_BERRY_DONUT.get());
+        basicItem(ModItemsFE.CARAMEL_DONUT.get());
+        basicItem(ModItemsFE.CARROT_DONUT.get());
+        basicItem(ModItemsFE.HONEY_GLAZED_DONUT.get());
+        basicItem(ModItemsFE.PUMPKIN_DONUT.get());
+        basicItem(ModItemsFE.SLIME_DONUT.get());
 
         //Soups
-        basicItem(ModItems.CHICKEN_NOODLE_SOUP.get());
-        basicItem(ModItems.CACTUS_SOUP.get());
-        basicItem(ModItems.POTATO_SOUP.get());
-        basicItem(ModItems.RABBIT_NOODLE_SOUP.get());
-        basicItem(ModItems.MUTTON_NOODLE_SOUP.get());
-        basicItem(ModItems.BEEF_NOODLE_SOUP.get());
-        basicItem(ModItems.FISH_NOODLE_SOUP.get());
-        basicItem(ModItems.CARROT_SOUP.get());
-        basicItem(ModItems.VEGETABLE_NOODLE_SOUP.get());
-        basicItem(ModItems.SLIME_SOUP.get());
+        basicItem(ModItemsFE.CHICKEN_NOODLE_SOUP.get());
+        basicItem(ModItemsFE.CACTUS_SOUP.get());
+        basicItem(ModItemsFE.POTATO_SOUP.get());
+        basicItem(ModItemsFE.RABBIT_NOODLE_SOUP.get());
+        basicItem(ModItemsFE.MUTTON_NOODLE_SOUP.get());
+        basicItem(ModItemsFE.BEEF_NOODLE_SOUP.get());
+        basicItem(ModItemsFE.FISH_NOODLE_SOUP.get());
+        basicItem(ModItemsFE.CARROT_SOUP.get());
+        basicItem(ModItemsFE.VEGETABLE_NOODLE_SOUP.get());
+        basicItem(ModItemsFE.SLIME_SOUP.get());
 
         //Oatmeals
-        basicItem(ModItems.OATMEAL.get());
-        basicItem(ModItems.SWEET_BERRY_N_CREAM_OATMEAL.get());
+        basicItem(ModItemsFE.OATMEAL.get());
+        basicItem(ModItemsFE.SWEET_BERRY_N_CREAM_OATMEAL.get());
 
         //Crops
-        basicItem(ModItems.OAT_SEEDS.get());
-        basicItem(ModItems.OATS.get());
+        basicItem(ModItemsFE.OAT_SEEDS.get());
+        basicItem(ModItemsFE.OATS.get());
 
         //Wild Crops
-        basicItem(ModItems.WILD_OATS.get());
+        basicItem(ModItemsFE.WILD_OATS.get());
     }
 }

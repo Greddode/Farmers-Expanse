@@ -22,8 +22,8 @@ public class ModCreativeTabs {
                 () -> CreativeModeTab
                         .builder()
                         .title(Component.translatable("creativetab.farmersexpanse.foods"))
-                        .icon(() -> new ItemStack((ItemLike) ModItems.ENERGY_DRINK.get()))
-                        .displayItems((parameters, output) -> ModItems.CREATIVE_TAB_ITEMS.forEach((item) -> output.accept((ItemLike)item.get())))
+                        .icon(() -> new ItemStack((ItemLike) ModItemsFE.ENERGY_DRINK.get()))
+                        .displayItems((parameters, output) -> ModItemsFE.CREATIVE_TAB_ITEMS.forEach((item) -> output.accept((ItemLike)item.get())))
                         .build());
 
     }
