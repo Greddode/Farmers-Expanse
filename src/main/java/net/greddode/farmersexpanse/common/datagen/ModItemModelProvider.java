@@ -9,7 +9,8 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 public class ModItemModelProvider extends ItemModelProvider
 {
 
-    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper)
+    {
         super(output, FarmersExpance.MOD_ID, existingFileHelper);
     }
 
@@ -52,7 +53,6 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItems.OAT_SCONE.get());
         basicItem(ModItems.OAT_PANCAKE.get());
 
-
         //Drinks
         basicItem(ModItems.ENERGY_DRINK.get());
 
@@ -87,7 +87,6 @@ public class ModItemModelProvider extends ItemModelProvider
         //Oatmeals
         basicItem(ModItems.OATMEAL.get());
         basicItem(ModItems.SWEET_BERRY_N_CREAM_OATMEAL.get());
-
 
         //Crops
         basicItem(ModItems.OAT_SEEDS.get());

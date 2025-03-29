@@ -13,6 +13,8 @@ import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 
+import vectorwing.farmersdelight.data.BlockStates;
+
 import java.util.function.Function;
 
 public class ModBlockStateProvider extends BlockStateProvider
@@ -29,6 +31,8 @@ public class ModBlockStateProvider extends BlockStateProvider
 
         makeCrop(((CropBlock) ModBlocks.OATS_CROP.get()), "oats_crop_stage", "oats_crop_stage");
         blockItem(ModBlocks.WILD_OATS);
+
+
 
     }
 
@@ -58,4 +62,5 @@ public class ModBlockStateProvider extends BlockStateProvider
     {
         simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("farmersexpanse:block/" + deferredBlock.getId().getPath() + appendix));
     }
+
 }
