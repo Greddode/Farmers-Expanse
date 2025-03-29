@@ -15,7 +15,7 @@ import vectorwing.farmersdelight.common.item.DrinkableItem;
 import java.util.LinkedHashSet;
 import java.util.function.Supplier;
 
-public class ModItems {
+public class ModItemsFE {
     public static Supplier<Item> registerWithTab(String name, Supplier<Item> supplier) {
         Supplier<Item> block = ITEMS.register(name, supplier);
         CREATIVE_TAB_ITEMS.add(block);
@@ -94,6 +94,61 @@ public class ModItems {
             () -> new Item(drinkItem()));
     public static final Supplier<Item> CARAMEL = registerWithTab("caramel",
             () -> new ConsumableItem(foodItem(FoodValues.CARAMEL), true));
+    public static final Supplier<Item> MOLASSES = registerWithTab("molasses",
+            () -> new Item(drinkItem()));
+    public static final Supplier<Item> KETCHUP = registerWithTab("ketchup",
+            () -> new Item(drinkItem()));
+    public static final Supplier<Item> MAYONNAISE = registerWithTab("mayonnaise",
+            () -> new Item(drinkItem()));
+    public static final Supplier<Item> MINCED_PORK = registerWithTab("minced_pork",
+            () -> new ConsumableItem(foodItem(FoodValues.MINCED_PORK)));
+    //Ground Pork
+
+    //Burgers
+    public static final Supplier<Item> PLAIN_HAMBURGER = registerWithTab("plain_hamburger",
+            () -> new ConsumableItem(foodItem(FoodValues.BASIC_HAMBURGER)));
+    public static final Supplier<Item> CHEESEBURGER = registerWithTab("cheeseburger",
+            () -> new ConsumableItem(foodItem(FoodValues.CHEESEBURGER)));
+    public static final Supplier<Item> BACON_CHEESEBURGER = registerWithTab("bacon_cheeseburger",
+            () -> new ConsumableItem(foodItem(FoodValues.BACON_CHEESEBURGER)));
+    public static final Supplier<Item> DELUXE_HAMBURGER = registerWithTab("deluxe_hamburger",
+            () -> new ConsumableItem(foodItem(FoodValues.DELUXE_HAMBURGER)));
+
+
+    //Sandwiches
+    public static final Supplier<Item> PORK_SANDWICH = registerWithTab("pork_sandwich",
+            () -> new ConsumableItem(foodItem(FoodValues.MEAT_SANDWICH)));
+    public static final Supplier<Item> MUTTON_SANDWICH = registerWithTab("mutton_sandwich",
+            () -> new ConsumableItem(foodItem(FoodValues.MEAT_SANDWICH)));
+    public static final Supplier<Item> COD_SANDWICH = registerWithTab("cod_sandwich",
+            () -> new ConsumableItem(foodItem(FoodValues.MEAT_SANDWICH)));
+    public static final Supplier<Item> SALMON_SANDWICH = registerWithTab("salmon_sandwich",
+            () -> new ConsumableItem(foodItem(FoodValues.MEAT_SANDWICH)));
+    public static final Supplier<Item> VEGETABLE_SANDWICH = registerWithTab("vegetable_sandwich",
+            () -> new ConsumableItem(foodItem(FoodValues.MEAT_SANDWICH)));
+    //Bacon Chicken Sandwich
+
+    //Hotdog
+    public static final Supplier<Item> HOTDOG = registerWithTab("hotdog",
+            () -> new ConsumableItem(foodItem(FoodValues.HOTDOG)));
+    public static final Supplier<Item> HOTDOG_IN_A_BUN = registerWithTab("hotdog_in_a_bun",
+            () -> new ConsumableItem(foodItem(FoodValues.HOTDOG_IN_A_BUN)));
+
+    //Yogurt
+    public static final Supplier<Item> PLAIN_YOGURT = registerWithTab("plain_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.PLAIN_YOGURT)));
+    public static final Supplier<Item> GLOW_BERRY_YOGURT = registerWithTab("glow_berry_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+    public static final Supplier<Item> SWEET_BERRY_YOGURT = registerWithTab("sweet_berry_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+    public static final Supplier<Item> MELON_YOGURT = registerWithTab("melon_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+    public static final Supplier<Item> CHORUS_YOGURT = registerWithTab("chorus_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+    public static final Supplier<Item> APPLE_YOGURT = registerWithTab("apple_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.FRUIT_YOGURT)));
+    public static final Supplier<Item> OATS_N_YOGURT = registerWithTab("oats_n_yogurt",
+            () -> new ConsumableItem(drinkItem().food(FoodValues.OATS_N_YOGURT)));
 
 
     //Donuts
@@ -158,11 +213,11 @@ public class ModItems {
     public static final Supplier<Item> OATS = registerWithTab("oats",
             () -> new Item(basicItem()));
     public static final Supplier<Item> OAT_SEEDS = ITEMS.register("oat_seeds",
-            () -> new ItemNameBlockItem(ModBlocks.OATS_CROP.get(), new Item.Properties()));
+            () -> new ItemNameBlockItem(ModBlocksFE.OATS_CROP.get(), new Item.Properties()));
 
     //Wild Crops
     public static final Supplier<Item> WILD_OATS = registerWithTab("wild_oats",
-            () -> new BlockItem(ModBlocks.WILD_OATS.get(), basicItem()));
+            () -> new BlockItem(ModBlocksFE.WILD_OATS.get(), basicItem()));
 
 
     public static void register(IEventBus eventBus)

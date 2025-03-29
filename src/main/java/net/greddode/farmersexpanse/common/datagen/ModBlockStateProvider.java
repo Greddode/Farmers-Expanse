@@ -1,7 +1,7 @@
 package net.greddode.farmersexpanse.common.datagen;
 
 import net.greddode.farmersexpanse.FarmersExpance;
-import net.greddode.farmersexpanse.common.registry.ModBlocks;
+import net.greddode.farmersexpanse.common.registry.ModBlocksFE;
 import net.greddode.farmersexpanse.common.registry.block.custom.crop.OatsCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -27,8 +27,10 @@ public class ModBlockStateProvider extends BlockStateProvider
     {
 
 
-        makeCrop(((CropBlock) ModBlocks.OATS_CROP.get()), "oats_crop_stage", "oats_crop_stage");
-        blockItem(ModBlocks.WILD_OATS);
+        makeCrop(((CropBlock) ModBlocksFE.OATS_CROP.get()), "oats_crop_stage", "oats_crop_stage");
+        blockItem(ModBlocksFE.WILD_OATS);
+
+
 
     }
 
@@ -58,4 +60,5 @@ public class ModBlockStateProvider extends BlockStateProvider
     {
         simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("farmersexpanse:block/" + deferredBlock.getId().getPath() + appendix));
     }
+
 }

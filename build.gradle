@@ -18,16 +18,24 @@ version = mod_version
 group = mod_group_id
 
 repositories {
-
-    maven {
-        // JEI
-        name = "Progwml6 maven"
-        url = "https://dvs1.progwml6.com/files/maven/"
-    }
     mavenLocal()
+    maven {
+        // location of the maven that hosts JEI files since January 2023
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+    maven {
+        // location of a maven mirror for JEI files, as a fallback
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+    maven {
+        //Appleskin Maven
+        url "https://maven.ryanliptak.com/"
+    }
+
     exclusiveContent {
         forRepository {
-
             maven {
                 // Farmers Delight
                 name = "Modrinth"
@@ -133,12 +141,17 @@ configurations {
 }
 
 dependencies {
-    implementation ("maven.modrinth:farmers-delight:${minecraft_version}-1.2.7")
+    implementation ("maven.modrinth:farmers-delight:${minecraft_version}-${farmersdelight_version}")
 
     // compile against the JEI API but do not include it at runtime
-    //compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:19.8.2.99")
+    compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
     // at runtime, use the full JEI jar for NeoForge
-    //runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:19.8.2.99")
+    runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
+
+    //Compile against the Appleskin API but do not include it at runtime
+    compileOnly ("squeek.appleskin:appleskin-neoforge:${appleskin_version}:api")
+    // at runtime, use the full Appleskin jar for NeoForge
+    runtimeOnly("squeek.appleskin:appleskin-neoforge:${appleskin_version}")
 
 
 }

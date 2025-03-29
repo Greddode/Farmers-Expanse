@@ -10,6 +10,29 @@
 
   "item.farmersexpanse.energy_drink" : "Energy Drink",
 
+  "item.farmersexpanse.plain_hamburger" : "Plain Hamburger",
+  "item.farmersexpanse.cheeseburger" : "Cheeseburger",
+  "item.farmersexpanse.bacon_cheeseburger" : "Bacon Cheeseburger",
+  "item.farmersexpanse.deluxe_hamburger" : "Deluxe Hamburger",
+
+  "item.farmersexpanse.pork_sandwich" : "Pork Sandwich",
+  "item.farmersexpanse.mutton_sandwich" : "Mutton Sandwich",
+  "item.farmersexpanse.cod_sandwich" : "Cod Sandwich",
+  "item.farmersexpanse.salmon_sandwich" : "Salmon Sandwich",
+  "item.farmersexpanse.vegetable_sandwich" : "Vegetable Sandwich",
+
+  "item.farmersexpanse.hotdog" : "Hotdog",
+  "item.farmersexpanse.hotdog_in_a_bun" : "Hotdog in a Bun",
+
+  "item.farmersexpanse.plain_yogurt" : "Plain Yogurt",
+  "item.farmersexpanse.glow_berry_yogurt" : "Glow Berry Yogurt",
+  "item.farmersexpanse.sweet_berry_yogurt" : "Sweet Berry Yogurt",
+  "item.farmersexpanse.melon_yogurt" : "Melon Yogurt",
+  "item.farmersexpanse.chorus_yogurt" : "Chorus Yogurt",
+  "item.farmersexpanse.apple_yogurt" : "Apple Yogurt",
+  "item.farmersexpanse.oats_n_yogurt" : "Oats n' Yogurt",
+
+
   "item.farmersexpanse.wheat_flour" : "Wheat Flour",
   "item.farmersexpanse.oat_flour" : "Oat Flour",
   "item.farmersexpanse.salt" : "Salt",
@@ -22,6 +45,10 @@
   "item.farmersexpanse.mushroom_oil" : "Mushroom Oil",
   "item.farmersexpanse.cooking_oil" : "Cooking Oil",
   "item.farmersexpanse.caramel" : "Caramel",
+  "item.farmersexpanse.molasses" : "Molasses",
+  "item.farmersexpanse.ketchup" : "Ketchup",
+  "item.farmersexpanse.mayonnaise" : "Mayonnaise",
+  "item.farmersexpanse.minced_pork" : "Minced Pork",
 
   "item.farmersexpanse.plain_donut" : "Plain Donut",
   "item.farmersexpanse.powdered_donut" : "Powdered Donut",
@@ -50,12 +77,12 @@
   "item.farmersexpanse.slime_soup" : "Slime Soup",
 
   "item.farmersexpanse.oatmeal" : "Oatmeal",
-  "item.farmersexpanse.sweet_berry_n_cream_oatmeal" : "Sweet Berry n Cream Oatmeal",
+  "item.farmersexpanse.sweet_berry_n_cream_oatmeal" : "Sweet Berry n' Cream Oatmeal",
 
   "item.farmersexpanse.oat_seeds": "Oat Seeds",
   "block.farmersexpanse.oats_crop": "Oats Crop",
   "item.farmersexpanse.oats": "Oats",
   "block.farmersexpanse.wild_oats" : "Wild Oats",
 
-  "creativetab.farmersexpanse.foods" : "Farmers Expanse Foods"
+  "creativetab.farmersexpanse.foods" : "Farmers Expanse"
 }

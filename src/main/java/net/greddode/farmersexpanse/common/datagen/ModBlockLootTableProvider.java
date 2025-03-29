@@ -11,8 +11,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
-import net.greddode.farmersexpanse.common.registry.ModBlocks;
-import net.greddode.farmersexpanse.common.registry.ModItems;
+import net.greddode.farmersexpanse.common.registry.ModBlocksFE;
+import net.greddode.farmersexpanse.common.registry.ModItemsFE;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
@@ -33,20 +33,20 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider
     @Override
     protected void generate()
     {
-        LootItemCondition.Builder lootItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.OATS_CROP.get())
+        LootItemCondition.Builder lootItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocksFE.OATS_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(OatsCropBlock.AGE, 4));
 
-        this.add(ModBlocks.OATS_CROP.get(), this.createCropDrops(ModBlocks.OATS_CROP.get(),
-                ModItems.OATS.get(), ModItems.OAT_SEEDS.get(), lootItemConditionBuilder));
+        this.add(ModBlocksFE.OATS_CROP.get(), this.createCropDrops(ModBlocksFE.OATS_CROP.get(),
+                ModItemsFE.OATS.get(), ModItemsFE.OAT_SEEDS.get(), lootItemConditionBuilder));
 
-        add(ModBlocks.WILD_OATS.get(),
-                block -> createWildCropDrops(ModBlocks.OATS_CROP.get(), ModItems.OAT_SEEDS.get()));
+        add(ModBlocksFE.WILD_OATS.get(),
+                block -> createWildCropDrops(ModBlocksFE.OATS_CROP.get(), ModItemsFE.OAT_SEEDS.get()));
     }
 
     @Override
     protected Iterable<Block> getKnownBlocks()
     {
-        return ModBlocks.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
+        return ModBlocksFE.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
     }
     protected LootTable.Builder createWildCropDrops(Block cropBlock, Item seedsItem)
     {
