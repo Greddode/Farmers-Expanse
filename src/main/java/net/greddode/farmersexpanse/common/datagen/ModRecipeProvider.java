@@ -158,6 +158,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('D', CommonTags.FOODS_LEAFY_GREEN)
                 .unlockedBy("has_bread", has(Items.BREAD))
                 .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItemsFE.BACON_AND_EGG_SANDWICH.get(), 1)
+                .requires(Items.BREAD)
+                .requires(ModItems.COOKED_BACON.get())
+                .requires(CommonTags.FOODS_COOKED_EGG)
+                .unlockedBy("has_bread", has(Items.BREAD))
+                .save(recipeOutput);
 
 
         //Yogurt

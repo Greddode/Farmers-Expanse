@@ -47,6 +47,8 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItemsFE.COD_SANDWICH.get());
         basicItem(ModItemsFE.SALMON_SANDWICH.get());
         basicItem(ModItemsFE.VEGETABLE_SANDWICH.get());
+        basicItem(ModItemsFE.BACON_AND_EGG_SANDWICH.get());
+
 
         //Hotdogs
         basicItem(ModItemsFE.HOTDOG.get());
@@ -111,6 +113,6 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItemsFE.OATS.get());
 
         //Wild Crops
-        basicItem(ModItemsFE.WILD_OATS.get());
+        //basicItem(ModItemsFE.WILD_OATS.get());
     }
 }

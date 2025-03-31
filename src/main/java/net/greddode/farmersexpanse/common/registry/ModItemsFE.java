@@ -126,6 +126,8 @@ public class ModItemsFE {
             () -> new ConsumableItem(foodItem(FoodValues.MEAT_SANDWICH)));
     public static final Supplier<Item> VEGETABLE_SANDWICH = registerWithTab("vegetable_sandwich",
             () -> new ConsumableItem(foodItem(FoodValues.MEAT_SANDWICH)));
+    public static final Supplier<Item> BACON_AND_EGG_SANDWICH = registerWithTab("bacon_and_egg_sandwich",
+            () -> new ConsumableItem(foodItem(FoodValues.BACON_AND_EGG_SANDWICH)));
     //Bacon Chicken Sandwich
 
     //Hotdog

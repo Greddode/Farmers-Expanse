@@ -33,6 +33,9 @@ repositories {
         //Appleskin Maven
         url "https://maven.ryanliptak.com/"
     }
+    maven {
+        url "https://cursemaven.com"
+    }
 
     exclusiveContent {
         forRepository {
@@ -143,6 +146,8 @@ configurations {
 dependencies {
     implementation ("maven.modrinth:farmers-delight:${minecraft_version}-${farmersdelight_version}")
 
+    implementation "curse.maven:balm-531761:6362518"
+    implementation "curse.maven:farming-for-blockheads-261924:6185977"
     // compile against the JEI API but do not include it at runtime
     compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
     // at runtime, use the full JEI jar for NeoForge
