@@ -49,6 +49,13 @@ public class ModItemModelProvider extends ItemModelProvider
         basicItem(ModItemsFE.VEGETABLE_SANDWICH.get());
         basicItem(ModItemsFE.BACON_AND_EGG_SANDWICH.get());
 
+        //Bacon Wrapped
+        basicItem(ModItemsFE.BACON_WRAPPED_BEEF.get());
+        basicItem(ModItemsFE.BACON_WRAPPED_CHICKEN.get());
+        basicItem(ModItemsFE.BACON_WRAPPED_PORKCHOP.get());
+        basicItem(ModItemsFE.BACON_WRAPPED_MUTTON.get());
+        basicItem(ModItemsFE.BACON_WRAPPED_COD.get());
+        basicItem(ModItemsFE.BACON_WRAPPED_SALMON.get());
 
         //Hotdogs
         basicItem(ModItemsFE.HOTDOG.get());

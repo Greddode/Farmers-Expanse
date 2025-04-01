@@ -22,6 +22,13 @@
   "item.farmersexpanse.vegetable_sandwich" : "Vegetable Sandwich",
   "item.farmersexpanse.bacon_and_egg_sandwich" : "Bacon and Egg Sandwich",
 
+  "item.farmersexpanse.bacon_wrapped_beef" : "Bacon Wrapped Beef",
+  "item.farmersexpanse.bacon_wrapped_porkchop" : "Bacon Wrapped Porkchop",
+  "item.farmersexpanse.bacon_wrapped_mutton" : "Bacon Wrapped Mutton",
+  "item.farmersexpanse.bacon_wrapped_chicken" : "Bacon Wrapped Chicken",
+  "item.farmersexpanse.bacon_wrapped_cod" : "Bacon Wrapped Cod",
+  "item.farmersexpanse.bacon_wrapped_salmon" : "Bacon Wrapped Salmon",
+
   "item.farmersexpanse.hotdog" : "Hotdog",
   "item.farmersexpanse.hotdog_in_a_bun" : "Hotdog in a Bun",
 

@@ -61,6 +61,9 @@ public class FoodValues {
     public static final FoodProperties MINCED_PORK = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.5F).build();
     public static final FoodProperties HOTDOG = (new FoodProperties.Builder()).nutrition(5).saturationModifier(0.8F).build();
     public static final FoodProperties HOTDOG_IN_A_BUN = (new FoodProperties.Builder()).nutrition(10).saturationModifier(0.8F).build();
+    public static final FoodProperties BACON_WRAPPED_MEAT = (new FoodProperties.Builder()).nutrition(12).saturationModifier(1.5F).effect(()-> nourishment(MEDIUM_DURATION),1).build();
+    public static final FoodProperties BACON_WRAPPED_FISH = (new FoodProperties.Builder()).nutrition(10).saturationModifier(1.5F).effect(()-> nourishment(MEDIUM_DURATION),1).build();
+
 
 
 

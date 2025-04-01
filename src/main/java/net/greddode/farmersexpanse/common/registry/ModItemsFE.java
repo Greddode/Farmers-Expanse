@@ -130,6 +130,20 @@ public class ModItemsFE {
             () -> new ConsumableItem(foodItem(FoodValues.BACON_AND_EGG_SANDWICH)));
     //Bacon Chicken Sandwich
 
+    //Bacon Wrapped Foods
+    public static final Supplier<Item> BACON_WRAPPED_BEEF = registerWithTab("bacon_wrapped_beef",
+            () -> new ConsumableItem(foodItem(FoodValues.BACON_WRAPPED_MEAT), true));
+    public static final Supplier<Item> BACON_WRAPPED_PORKCHOP = registerWithTab("bacon_wrapped_porkchop",
+            () -> new ConsumableItem(foodItem(FoodValues.BACON_WRAPPED_MEAT), true));
+    public static final Supplier<Item> BACON_WRAPPED_MUTTON = registerWithTab("bacon_wrapped_mutton",
+            () -> new ConsumableItem(foodItem(FoodValues.BACON_WRAPPED_MEAT), true));
+    public static final Supplier<Item> BACON_WRAPPED_CHICKEN = registerWithTab("bacon_wrapped_chicken",
+            () -> new ConsumableItem(foodItem(FoodValues.BACON_WRAPPED_MEAT), true));
+    public static final Supplier<Item> BACON_WRAPPED_COD = registerWithTab("bacon_wrapped_cod",
+            () -> new ConsumableItem(foodItem(FoodValues.BACON_WRAPPED_FISH), true));
+    public static final Supplier<Item> BACON_WRAPPED_SALMON = registerWithTab("bacon_wrapped_salmon",
+            () -> new ConsumableItem(foodItem(FoodValues.BACON_WRAPPED_FISH), true));
+
     //Hotdog
     public static final Supplier<Item> HOTDOG = registerWithTab("hotdog",
             () -> new ConsumableItem(foodItem(FoodValues.HOTDOG)));
